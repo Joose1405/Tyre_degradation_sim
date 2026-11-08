@@ -1,0 +1,10 @@
+[project]
+name = "tyresim"
+version = "0.1.0"
+description = "Análisis de degradación de neumáticos y simulación de estrategias de carrera"
+requires-python = ">=3.10"
+dependencies = ["numpy", "pandas", "scikit-learn", "matplotlib"]
+
+[tool.pytest.ini_options]
+pythonpath = ["."]
+testpaths = ["tests"]
